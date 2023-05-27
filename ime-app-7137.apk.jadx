@@ -1,0 +1,267 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "ime-app-7137.apk"
+  ],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "ime",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "c",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "menny.android.anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "com.menny.android.anysoftkeyboard.SoftKeyboard",
+      "menny.android.anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "com.menny.android.anysoftkeyboard.R",
+      "menny.android.anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "a.a.a",
+      "c",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "ui",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "settings",
+      "ui",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "com.anysoftkeyboard.AnySoftKeyboard",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "b",
+      "c",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "com.anysoftkeyboard.ime.AnySoftKeyboardThemeOverlay",
+      "ime",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ],
+    [
+      "com.anysoftkeyboard.ime.AnySoftKeyboardBase",
+      "ime",
+      "anysoftkeyboard",
+      "com",
+      "Source code",
+      "ime-app-7137.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.b.z.p"
+        },
+        "newName": "Key"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.b.z.r0.n0"
+        },
+        "newName": "KeyDetector"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.b.z.r0.x0"
+        },
+        "newName": "PointerTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "e:I"
+        },
+        "newName": "width"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "f:I"
+        },
+        "newName": "height"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "h:I"
+        },
+        "newName": "x"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "i:I"
+        },
+        "newName": "centerX"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "j:I"
+        },
+        "newName": "y"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.p",
+          "shortId": "k:I"
+        },
+        "newName": "centerY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.r0.x0",
+          "shortId": "d:Lc/b/z/r0/n0;"
+        },
+        "newName": "mKeyDetector"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c.b.z.r0.x0",
+          "shortId": "f:[Lc/b/z/p;"
+        },
+        "newName": "mKeys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c.b.z.p",
+          "shortId": "e()I"
+        },
+        "newName": "getPrimaryCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c.b.z.r0.n0",
+          "shortId": "c(Lc/b/z/p;)Z"
+        },
+        "newName": "isKeyShifted"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c.b.z.r0.x0",
+          "shortId": "b(I)Lc/b/z/p;"
+        },
+        "newName": "getKey"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "c.b.z.r0.x0",
+      "subPath": "java",
+      "caret": 682,
+      "view": {
+        "x": 0,
+        "y": 367
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "c.b.z.p",
+      "subPath": "java",
+      "caret": 546,
+      "view": {
+        "x": 0,
+        "y": 386
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "c.b.z.r0.n0",
+      "subPath": "java",
+      "caret": 579,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardBase",
+      "subPath": "java",
+      "caret": 4573,
+      "view": {
+        "x": 0,
+        "y": 1615
+      }
+    }
+  ],
+  "activeTab": 0,
+  "cacheDir": "ime-app-7137.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "language_tweaks_settings_tile",
+    "settings_tile_keyboards",
+    "settings_key_layout_for_internet_fields",
+    "import com.menny.android.anysoftkeyboard.AnyApplication",
+    "auto_cap"
+  ]
+}
