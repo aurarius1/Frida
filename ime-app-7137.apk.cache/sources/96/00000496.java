@@ -1,0 +1,28 @@
+package p010b.p086w;
+
+import android.graphics.PointF;
+import android.util.Property;
+import android.view.View;
+
+/* renamed from: b.w.h */
+/* loaded from: classes.dex */
+public final class C1042h extends Property {
+    public C1042h(Class cls, String str) {
+        super(cls, str);
+    }
+
+    @Override // android.util.Property
+    public /* bridge */ /* synthetic */ Object get(Object obj) {
+        View view = (View) obj;
+        return null;
+    }
+
+    @Override // android.util.Property
+    public void set(Object obj, Object obj2) {
+        View view = (View) obj;
+        PointF pointF = (PointF) obj2;
+        int round = Math.round(pointF.x);
+        int round2 = Math.round(pointF.y);
+        AbstractC1023a1.m1382c(view, round, round2, view.getWidth() + round, view.getHeight() + round2);
+    }
+}

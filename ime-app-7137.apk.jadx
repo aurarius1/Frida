@@ -5,45 +5,7 @@
   ],
   "treeExpansions": [
     [
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "ime",
-      "anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
       "c",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "menny.android.anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "com.menny.android.anysoftkeyboard.SoftKeyboard",
-      "menny.android.anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "com.menny.android.anysoftkeyboard.R",
-      "menny.android.anysoftkeyboard",
-      "com",
       "Source code",
       "ime-app-7137.apk"
     ],
@@ -54,47 +16,18 @@
       "ime-app-7137.apk"
     ],
     [
-      "ui",
-      "anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "settings",
-      "ui",
-      "anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
-      "com.anysoftkeyboard.AnySoftKeyboard",
-      "anysoftkeyboard",
-      "com",
-      "Source code",
-      "ime-app-7137.apk"
-    ],
-    [
       "b",
       "c",
       "Source code",
       "ime-app-7137.apk"
     ],
     [
-      "com.anysoftkeyboard.ime.AnySoftKeyboardThemeOverlay",
-      "ime",
-      "anysoftkeyboard",
       "com",
       "Source code",
       "ime-app-7137.apk"
     ],
     [
-      "com.anysoftkeyboard.ime.AnySoftKeyboardBase",
-      "ime",
-      "anysoftkeyboard",
-      "com",
-      "Source code",
+      "Resources",
       "ime-app-7137.apk"
     ]
   ],
@@ -247,17 +180,28 @@
       "type": "class",
       "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardBase",
       "subPath": "java",
-      "caret": 4573,
+      "caret": 4888,
       "view": {
         "x": 0,
-        "y": 1615
+        "y": 2395
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.menny.android.anysoftkeyboard.R",
+      "subPath": "java",
+      "caret": 83843,
+      "view": {
+        "x": 0,
+        "y": 29563
       }
     }
   ],
-  "activeTab": 0,
+  "activeTab": 3,
   "cacheDir": "ime-app-7137.apk.cache",
   "enableLiveReload": false,
   "searchHistory": [
+    "c.b.x.n",
     "language_tweaks_settings_tile",
     "settings_tile_keyboards",
     "settings_key_layout_for_internet_fields",
