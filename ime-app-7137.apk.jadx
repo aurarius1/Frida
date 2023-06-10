@@ -150,10 +150,10 @@
       "type": "class",
       "tabPath": "c.b.z.r0.x0",
       "subPath": "java",
-      "caret": 682,
+      "caret": 3720,
       "view": {
         "x": 0,
-        "y": 367
+        "y": 2323
       }
     },
     {
@@ -180,24 +180,94 @@
       "type": "class",
       "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardBase",
       "subPath": "java",
-      "caret": 4888,
+      "caret": 1960,
       "view": {
         "x": 0,
-        "y": 2395
+        "y": 833
       }
     },
     {
       "type": "class",
       "tabPath": "com.menny.android.anysoftkeyboard.R",
       "subPath": "java",
-      "caret": 83843,
+      "caret": 287538,
       "view": {
         "x": 0,
-        "y": 29563
+        "y": 96163
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.menny.android.anysoftkeyboard.SoftKeyboard",
+      "subPath": "java",
+      "caret": 1359,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardThemeOverlay",
+      "subPath": "java",
+      "caret": 1353,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.AnySoftKeyboard",
+      "subPath": "java",
+      "caret": 12406,
+      "view": {
+        "x": 0,
+        "y": 7507
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardKeyboardSwitchedListener",
+      "subPath": "java",
+      "caret": 1034,
+      "view": {
+        "x": 0,
+        "y": 175
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardRxPrefs",
+      "subPath": "java",
+      "caret": 2093,
+      "view": {
+        "x": 0,
+        "y": 777
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.anysoftkeyboard.ime.AnySoftKeyboardKeyboardTagsSearcher",
+      "subPath": "java",
+      "caret": 2022,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
       }
     }
   ],
-  "activeTab": 3,
+  "activeTab": 11,
   "cacheDir": "ime-app-7137.apk.cache",
   "enableLiveReload": false,
   "searchHistory": [
