@@ -1,9 +1,8 @@
 setTimeout(function(){
     Java.perform(function() {
-        var nsc = Java.use('android.security.net.config.NetworkSecurityConfig');       
-        var NetworkSecurityConfig = Java.use('android.security.net.config.NetworkSecurityConfig$Builder');
-        var X509Certificate = Java.use("java.security.cert.X509Certificate");
-        var MessageDigest = Java.use("java.security.MessageDigest");
+        let nsc = Java.use('android.security.net.config.NetworkSecurityConfig');       
+        let X509Certificate = Java.use("java.security.cert.X509Certificate");
+        let MessageDigest = Java.use("java.security.MessageDigest");
         let CertificateFactory = Java.use("java.security.cert.CertificateFactory");
         let FileInputStream = Java.use("java.io.FileInputStream");
         let Pin = Java.use("android.security.net.config.Pin");
@@ -24,7 +23,7 @@ setTimeout(function(){
                 let pins = Set.$new();
                 let md = MessageDigest.getInstance("SHA256");
                 let cf = CertificateFactory.getInstance("X509");
-                let is = FileInputStream.$new("/data/local/tmp/amazon.crt");
+                let is = FileInputStream.$new("/data/local/tmp/cat.crt");
                 let cert = Java.cast(cf.generateCertificate(is), X509Certificate);
                 let pubKeyPin = Java.cast(cert.getPublicKey(), Java.use("java.security.Key")).getEncoded();
                 let pin = md.digest(pubKeyPin);
