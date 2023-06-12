@@ -1,9 +1,6 @@
 import frida, sys
 
 def on_message(message, data):
-    #if message['type'] == 'send':
-    #    print("[*] {0}".format(message['payload']))
-    #else:
     if(message['type'] == 'send'): 
         if type(message['payload']) is dict and \
             "type" in message['payload'] and \
@@ -15,57 +12,7 @@ def on_message(message, data):
             print("No userinput recorded")
     else: 
         print(message)
-    #import requests
-    #r = requests.get('https://cat-fact.herokuapp.com/facts/')
-    #print(r.json())
-
 jscode = """
-
-
-
-let always_caps = false;
-let user_pressed_caps = false;
-
-function only_allow_caps_after_one_cap(i)
-{
-    if(!always_caps)
-    {
-        user_pressed_caps = i;
-        if(user_pressed_caps)
-        {
-            always_caps = true;
-        }
-        return user_pressed_caps;
-    }
-    return always_caps;
-}
-
-function getVersion()
-{
-    const ActivityThread = Java.use('android.app.ActivityThread')
-    const currentApplication = ActivityThread.currentApplication()
-    const context = currentApplication.getApplicationContext()
-    const pkgManager = context.getPackageManager()
-    const pkgInfo = pkgManager.getPackageInfo(context.getPackageName(), 128)
-
-    /* Don't work */
-    // console.log('version: ', pkgInfo.versionName)
-    // console.log('version: ', pkgInfo._versionName.value)
-
-    console.log('version: ', pkgInfo.getClass().getField('versionName').get(pkgInfo))
-    var PackageManager = Java.use("android.content.pm.PackageManager");
-    var packageManager = Java.use("android.app.ActivityThread").currentApplication().getApplicationContext().getPackageManager();
-    var GET_PERMISSIONS = PackageManager.GET_PERMISSIONS.value;
-    var packageInfo = packageManager.getPackageInfo(context.getPackageName(), PackageManager.GET_PERMISSIONS.value);
-
-    var permissions = packageInfo.requestedPermissions.value;
-    console.log(permissions);
-
-    for (var i = 0; i < permissions.length; i++) {
-        var permission = permissions[i];
-        console.log(permission);
-    }
-}
 
 Java.perform(() => {
     let Integer = Java.use("java.lang.Integer");
@@ -125,7 +72,7 @@ Java.perform(() => {
     let n0 = Java.use("c.b.x.n0");
 
     n0["onSharedPreferenceChanged"].implementation = function (sharedPreferences, str) {
-        // here a prefrence change can be detected
+        // here a preference change can be detected
         prefsChanged.push(str);
         this["onSharedPreferenceChanged"](sharedPreferences, "auto_caps");
        
